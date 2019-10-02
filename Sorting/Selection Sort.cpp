@@ -25,7 +25,7 @@ int main()
 				min=j; //Finding the smallest number in Array
 			}
 		}
-		int temp =Array[i];
+		int temp =Array[i]; //swapping of varibles
 		Array[i]=Array[min];
 		Array[min]=temp;
 	}
